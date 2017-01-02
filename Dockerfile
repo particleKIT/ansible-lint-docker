@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:3
 MAINTAINER robin.roth@kit.edu
 
-RUN pip install yamllint ansible-lint
+RUN pip3 install yamllint ansible-lint
